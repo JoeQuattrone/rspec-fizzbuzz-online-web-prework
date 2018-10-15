@@ -2,10 +2,10 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(x)
   
-  elsif (x % 3 ==0 && x % 5 == 0)
+  if (x % 3 ==0 && x % 5 == 0)
     return "FizzBuzz"
     
-  if (x % 3 == 0)
+  elsif (x % 3 == 0)
     return "Fizz"
   
   elsif (x % 5 == 0)
